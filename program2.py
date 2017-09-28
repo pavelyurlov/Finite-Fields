@@ -123,6 +123,7 @@ def generateMatricesOfField(p, n, A, E, O):
         printMatrix(pol, p, len(pol)-1, A, E)
 
 
+
 print('Введите любое простое число p')
 p = int(input())
 flag = True
@@ -169,7 +170,7 @@ while not primElemFound:
             primElemFound = True
 
 print('Таблица индексов:')
-print('\ti:\tzeta^i')
+print('\ti:\tzeta^i\n')
 print('\t', 1, ':\t', sep='', end='')
 printElement(primElem, n-1)
 print()
