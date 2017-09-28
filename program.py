@@ -196,3 +196,4 @@ O = np.zeros((n, n), int)
 E = np.zeros((n, n), int)
 np.fill_diagonal(E, 1)
 generateMatricesOfField(p, n, A, E, O)
+
