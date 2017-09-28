@@ -138,10 +138,10 @@ else:
     flag = False
 if not flag:
     sys.exit(0)
-print('Введите любое натуральное число n')
+print('Введите натуральное число n > 1')
 n = int(input())
-if n < 1:
-    print('Число n не является натуральным')
+if n < 2:
+    print('Число n < 2')
     flag = False
 if not flag:
     sys.exit(0)
